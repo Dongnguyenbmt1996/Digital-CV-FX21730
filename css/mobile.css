@@ -1,0 +1,153 @@
+@media only screen and (max-width: 768px) {
+  * {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .nav-2,
+  .img-avt {
+    display: none !important;
+  }
+
+  .header-assignment {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("../images/banner.jpg");
+  }
+
+  .nav-container {
+    display: block;
+    height: 180px;
+  }
+  a.nav {
+    padding-bottom: 16px !important;
+  }
+
+  .nav-1,
+  .nav-3 {
+    border-left: 0px solid #939393;
+    border-right: 0px solid #939393;
+  }
+
+  a.nav {
+    padding-bottom: 8px;
+  }
+
+  .nav:hover {
+    font-size: 14px;
+  }
+
+  /* PhầN thông tin cá nhân */
+
+  ol,
+  ul {
+    padding-left: 0rem;
+  }
+
+  #target {
+    margin-left: 0px;
+  }
+
+  .about-container {
+    padding-left: 0px !important;
+  }
+  #personal-info {
+    margin-left: 34px !important;
+    margin-top: 42px !important;
+  }
+  .icon--info {
+    margin-left: 34px;
+    margin-top: -18px;
+  }
+
+  /* Phần thông tin nghề nghiệp chia làm 1 cột */
+
+  * {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: 1fr !important;
+  }
+  .info-header {
+    display: grid !important;
+    grid-template-columns: 75% 25% !important;
+    align-items: flex-end;
+    max-width: 350px;
+  }
+
+  .icon-hobby {
+    display: grid !important;
+    grid-template-columns: 25% 25% 25% 25% !important;
+    grid-template-rows: 1fr auto;
+    gap: 24px 10px;
+    margin-left: 12px;
+    margin-right: 12px;
+    align-items: center;
+  }
+  /* Chứng chỉ */
+  .certificate-container-1 {
+    border-right: 0px solid #d6c08d;
+  }
+
+  .certificate-img {
+    row-gap: 24px;
+  }
+  .project-big {
+    row-gap: 32px;
+  }
+
+  /* Dự án */
+  .project-header-1 {
+    display: block;
+    margin-left: 0;
+    line-height: 1.8;
+  }
+  .project-header-1 i {
+    padding-left: 0px;
+  }
+
+  /* Footer */
+
+  .icon-facebook-circled,
+  .icon-linkedin-circled,
+  .icon-github-circled {
+    font-size: 100%;
+    color: #199cdb;
+  }
+
+  /* Project-CV */
+  .container-project-cv {
+    display: block;
+  }
+
+  .container-project-cv {
+    border-color: #1f19db;
+    border-width: 5px;
+    border-style: solid;
+  }
+  .goals,
+  .team,
+  .timeline,
+  .scopes,
+  .primary {
+    border-color: #1f19db;
+    border-width: 5px;
+    border-style: solid;
+    padding: 8px;
+    border-collapse: collapse;
+  }
+  .icon-goal {
+    margin-bottom: 8px;
+  }
+  .number-timeline {
+    margin-top: 12px;
+  }
+  .scopes-in {
+    margin-top: 12px;
+    margin-bottom: 8px;
+  }
+  .content-timeline-1 {
+    padding-left: 0px;
+  }
+  .section-project {
+    padding: 40px;
+  }
+}
